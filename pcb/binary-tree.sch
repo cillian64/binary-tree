@@ -498,7 +498,7 @@ F 1 "VCC" H 5500 2150 50  0000 C CNN
 F 2 "" H 5500 2000 50  0000 C CNN
 F 3 "" H 5500 2000 50  0000 C CNN
 	1    5500 2000
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR017
@@ -895,4 +895,57 @@ USB_DM
 Text Label 5300 5850 0    60   ~ 0
 USB_DP
 NoConn ~ 1500 2700
+Text Label 5300 4650 0    60   ~ 0
+LED1
+Text Label 5300 4750 0    60   ~ 0
+LED2
+Text Label 5300 4850 0    60   ~ 0
+LED3
+Text Label 5300 4950 0    60   ~ 0
+LED4
+Text Label 5300 5050 0    60   ~ 0
+LED5
+Text Label 5300 5250 0    60   ~ 0
+LED6
+Text Label 5300 5350 0    60   ~ 0
+LED7
+Text Label 4500 5850 2    60   ~ 0
+LED8
+NoConn ~ 5300 5150
+NoConn ~ 5300 5450
+NoConn ~ 5300 5550
+NoConn ~ 5300 5650
+NoConn ~ 5300 6150
+NoConn ~ 4500 5550
+NoConn ~ 4500 5650
+NoConn ~ 4500 5950
+NoConn ~ 4500 6150
+NoConn ~ 4500 6250
+NoConn ~ 4500 6350
+NoConn ~ 4500 6450
+NoConn ~ 4500 6550
+$Comp
+L GND #PWR033
+U 1 1 57FAE81B
+P 5500 2300
+F 0 "#PWR033" H 5500 2050 50  0001 C CNN
+F 1 "GND" H 5500 2150 50  0000 C CNN
+F 2 "" H 5500 2300 50  0000 C CNN
+F 3 "" H 5500 2300 50  0000 C CNN
+	1    5500 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2300 5500 2300
+$Comp
+L PWR_FLAG #FLG034
+U 1 1 57FAEE4F
+P 5200 2300
+F 0 "#FLG034" H 5200 2395 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 2480 50  0000 C CNN
+F 2 "" H 5200 2300 50  0000 C CNN
+F 3 "" H 5200 2300 50  0000 C CNN
+	1    5200 2300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
